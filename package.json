@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/canvaspottery/basic_counter/issues"
   },
-  "homepage": "https://github.com/canvaspottery/basic_counter#readme"
+  "homepage": "https://github.com/canvaspottery/basic_counter#readme",
+  "devDependencies": {
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
