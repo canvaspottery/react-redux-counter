@@ -1,4 +1,4 @@
-# Basic Counter
+# React Redux Counter
 
 Basic counter built with:
 

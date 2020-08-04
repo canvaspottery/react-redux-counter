@@ -1,5 +1,5 @@
 {
-  "name": "basic_counter",
+  "name": "react-redux-counter",
   "version": "1.0.0",
   "description": "Basic counter",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/canvaspottery/basic_counter.git"
+    "url": "git+https://github.com/canvaspottery/react-redux-counter.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/canvaspottery/basic_counter/issues"
+    "url": "https://github.com/canvaspottery/react-redux-counter/issues"
   },
-  "homepage": "https://github.com/canvaspottery/basic_counter#readme",
+  "homepage": "https://github.com/canvaspottery/react-redux-counter#readme",
   "devDependencies": {
     "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",
