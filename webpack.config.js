@@ -6,9 +6,18 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
-        use: "ts-loader",
+        test: /\.(ts|js)x?$/,
+        use: "babel-loader",
         exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif|ico)$/,
+        exclude: /node_modules/,
+        use: ["file-loader?name=[name].[ext]"],
       },
       {
         enforce: "pre",
