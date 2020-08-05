@@ -23,11 +23,14 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
+    "@types/enzyme": "^3.10.5",
     "@types/jest": "^26.0.8",
     "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",
     "babel-loader": "^8.1.0",
     "css-loader": "^4.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "file-loader": "^6.0.0",
     "jest": "^26.2.2",
     "source-map-loader": "^1.0.1",
@@ -39,5 +42,10 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>src/setupTests.js"
+    ]
   }
 }
