@@ -4,6 +4,7 @@ export interface CountState {
 
 export const INCREMENT = "INCREMENT";
 export const DECREMENT = "DECREMENT";
+export const NOTHING = "NOTHING";
 
 interface IncrementAction {
   type: typeof INCREMENT;
@@ -13,4 +14,11 @@ interface DecrementAction {
   type: typeof DECREMENT;
 }
 
-export type CountActionTypes = IncrementAction | DecrementAction;
+interface NothingAction {
+  type: typeof NOTHING;
+}
+
+export type CountActionTypes =
+  | IncrementAction
+  | DecrementAction
+  | NothingAction;
