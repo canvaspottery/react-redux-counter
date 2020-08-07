@@ -3,7 +3,6 @@ import {
   CountActionTypes,
   INCREMENT,
   DECREMENT,
-  NOTHING,
 } from "../store/types";
 
 const initialState: CountState = {
